@@ -241,6 +241,8 @@
     import JetDropdownLink from '@/Jetstream/DropdownLink.vue'
     import JetNavLink from '@/Jetstream/NavLink.vue'
     import JetResponsiveNavLink from '@/Jetstream/ResponsiveNavLink.vue'
+    import ConfirmationModal from '@/Jetstream/ConfirmationModal.vue'
+    import SecondaryButton from '@/Jetstream/SecondaryButton.vue';
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
     export default {
@@ -257,6 +259,8 @@
             JetNavLink,
             JetResponsiveNavLink,
             Link,
+            ConfirmationModal,
+            SecondaryButton
         },
 
         data() {
